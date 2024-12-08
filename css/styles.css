@@ -9,18 +9,33 @@ body {
 header {
     background-color: #88b04b;
     color: #ffffff;
-    padding: 20px 20px 20px 20px;
+    padding: 15px;
     text-align: left;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: left; /* Center items horizontally */
 }
 
 header a {
+    height: 100%;
+    width: auto;
     vertical-align: middle;
 }
 
+header img {
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 5%;
+}
+
 header h1 {
-    display: inline-block;
-    justify-self: center;
+    display: block;
     padding-left: 2%;
+    text-align: center;
+    font-size: 6vh;
 }
 
 nav {
@@ -43,10 +58,11 @@ main {
     padding: 20px;
 }
 
-main img {
+.banner-image {
     display: block;
     margin: 0 auto;
     border: 2px solid #88b04b;
+    border-radius: 10px;
     width: 80%;
     height: auto;
 }
