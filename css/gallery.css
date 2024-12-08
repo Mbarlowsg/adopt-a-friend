@@ -19,7 +19,7 @@
 	height: 100%;
 	column-gap: 0px;
 	row-gap: 0px;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 25% 25% 25% 25%;
 	background-color: #d6d6d6;
 	padding: 0px;
 }
